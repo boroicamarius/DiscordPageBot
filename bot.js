@@ -9,10 +9,7 @@ client.on("ready", () => {
 
 client.on("messageCreate", msg => {
 
-  if(msg.content.toLowerCase() == 'hello')
-    msg.reply('Hello!')
-
-  /* if(msg.author.bot || msg.author.system)
+  if(msg.author.bot || msg.author.system)
     return;
 
     let url;
@@ -26,7 +23,7 @@ client.on("messageCreate", msg => {
     msg.react('❤️')
 
     if(url.hostname == 'youtu.be' || url.host == 'youtube.com')
-        open(url.href) */
+        open(url.href) 
 
 })
 
