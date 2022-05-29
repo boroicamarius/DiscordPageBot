@@ -15,7 +15,6 @@ client.on("messageCreate", msg => {
     let url;
     try {
       url = new URL(msg.content);
-      
     } catch (_) {
       return;  
     }
